@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#009edb">
+<title>Natural fibres and plastics in East Africa, 1961–2025</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/unctad-icon.svg">
+<link rel="stylesheet" href="css/story.css">
+</head>
+<body>
+<!-- Storyboard for the 2nd East Africa Regional Sustainable Natural Fibres Symposium (Kampala, 30–31 October 2026).
+     Every number on this page is computed at run time from data/story_data.js (built by scripts/sb_01_data.py from the
+     harmonised 1961–2025 data); nothing is typed by hand. Style: UNCTAD InfoVis (GitHub/Non-plastic). -->
+<header id="top">
+  <div class="bar">
+    <button class="brand" id="home" title="Back to the first page">
+      <img src="assets/unctad-icon.svg" alt="UNCTAD">
+      <span><b>Natural fibres and plastics in East Africa</b><small>UN Trade and Development (UNCTAD) · 1961–2025 · data story</small></span>
+    </button>
+    <span class="sp"></span>
+    <nav id="chapters" aria-label="Chapters"></nav>
+    <span class="tools"><button class="btn-line" id="menu-btn" title="Talks and all boards (M)">Menu</button><button class="btn-line" id="present" title="Full screen, one board at a time (F)">Present</button></span>
+  </div>
+  <!-- theme tabs: one per talk of js/talks.js (the presentation scenarios), plus the full story -->
+  <nav id="themes" aria-label="Themes"></nav>
+</header>
+<div id="progress" aria-hidden="true"></div>
+<main id="story" aria-live="polite"></main>
+<div id="tip" role="status"></div>
+<noscript><p style="padding:90px 30px">This data story needs JavaScript. The underlying tables are in <code>outputs/EAFF_history_harmonized.xlsx</code>.</p></noscript>
+<script src="js/vendor/d3.min.js"></script>
+<script src="js/vendor/topojson-client.min.js"></script>
+<script src="assets/un_map.js"></script>
+<script src="data/story_data.js"></script>
+<script src="data/fibre_mix.js"></script>
+<script src="data/farmers.js"></script>
+<script src="js/app.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/talks.js"></script>
+<script src="js/boards.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+﻿fibre,code,period,tonnes_a_year,usd_a_year,source
+Cotton lint,HS92 520100,1996-2000,259158.0,392524981.0,CEPII BACI HS92 (baci92_ea_flows.parquet); = H7b/H7
+Cotton lint,HS92 520100,2020-2024,200228.0,426334426.0,CEPII BACI HS92 (baci92_ea_flows.parquet); = H7b/H7
+Flax and hemp,"HS92 5301, 5302",1996-2000,135.0,117064.0,CEPII BACI HS92 (baci92_ea_flows.parquet); = H7b/H7
+Flax and hemp,"HS92 5301, 5302",2020-2024,1612.0,5458407.0,CEPII BACI HS92 (baci92_ea_flows.parquet); = H7b/H7
+Sisal (reference; page uses story_data.js),harmonised panel HF.SIS.RAW,1996-2000,35722.0,,"story_data.js exp.t (UN Comtrade HS, harmonised)"
+Sisal (reference; page uses story_data.js),harmonised panel HF.SIS.RAW,2020-2024,55526.0,,"story_data.js exp.t (UN Comtrade HS, harmonised)"
+"Uganda, other plant fibres (where banana fibre would be booked)",HS92 5305,2020-2024,0.1,,CEPII BACI HS92
